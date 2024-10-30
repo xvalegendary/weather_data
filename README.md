@@ -6,11 +6,14 @@
 - Интегрирован API для получения данных о погоде в выбранном городе.
 - Обработаны возможные ошибки ввода пользователя.
 - Написан на JavaScript.
+chore: Установить зависимости для работы с Telegram-ботом
+
+- Установлены пакеты telegraf, dotenv и node-fetch для реализации функциональности бота.
 
 # Запуск
 
 > npm init -y
 
-> npm install
+> npm i telegraf dotenv node-fetch
 
 > node bot.js 
